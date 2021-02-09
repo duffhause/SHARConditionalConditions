@@ -7,6 +7,5 @@ end
 
 -- Method to remove given condition from given file
 function RemoveCondition (file, cond)
-	-- AddCondition(possible spaces)(open brack)(possible spaces)"[condition]"(possible additonal arguments)(close brack);(possible additonal arguments)CloseCondition
 	return file : gsub('AddCondition%s-%(%s-"' .. cond .. '".-%);.-CloseCondition%(%);', "")
 end
