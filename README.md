@@ -6,6 +6,8 @@ Install into your Hit & Run mod launcher Mod folder `Documents\My Games\Lucas' S
 ## Condition Types
 ### Damage
 Condition to make it so you can't destory your own car
+### Follow Condition
+Condition to make it so you must stay within a distance of a follow car
 ### Keep Barrel
 Condition to make it so you must not lose the nuclear waste barrel in level 7
 ### Out of Bounds
@@ -16,3 +18,5 @@ Condition to make it so you can't exit your vehicle for too long, usually 10 sec
 Condition to make it so you must finish a race in 1st place
 ### Race
 Condition to make it so you cant let the activated vehicle get to a destination
+### Timeout
+Condition to make it so you must complete the objective within a given time limit
